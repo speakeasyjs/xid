@@ -1,0 +1,22 @@
+{
+  "name": "xid",
+  "version": "0.0.1",
+  "description": "Human-tolerant ID generator for NodeJS and the browser",
+  "license": "Apache 2.0",
+  "main": "index.js",
+  "browser": "./lib/xid.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikepb/xid.git"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Michael Phan-Ba <michael@mikepb.com>",
+  "dependencies": {
+    "base32.js": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
